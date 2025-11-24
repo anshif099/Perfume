@@ -123,6 +123,9 @@ const ProductCard = ({
         <Button
           variant="outline"
           className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-black transition-all duration-300"
+          onClick={() => {
+            window.location.href = "shop.html";
+          }}
         >
           Shop Now
         </Button>
